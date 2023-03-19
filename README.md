@@ -9,14 +9,13 @@ In Azure, a resource is an entity managed by Azure. Virtual machines, virtual ne
 </p>
 
 <h2>What is an Azure Resource Group?</h2>
-In Azure, a resource is an entity managed by Azure. Virtual machines, virtual networks, and storage accounts are all examples of Azure resources.
+
+Each resource in Azure must belong to a resource group. A resource group is a logical container that associates multiple resources so you can manage them as a single entity—based on lifecycle and security. For example, you can create or delete resources as a group if the resources share a similar lifecycle—such as the resources for an N-tier application. In other words, everything that you create, manage, and deprecate together is associated within a resource group.
 
 <img src="https://i.imgur.com/nRb0d6w.png" alt="Azure Logo">
 </p>
-Each resource in Azure must belong to a resource group. A resource group is a logical container that associates multiple resources so you can manage them as a single entity—based on lifecycle and security. For example, you can create or delete resources as a group if the resources share a similar lifecycle—such as the resources for an N-tier application. In other words, everything that you create, manage, and deprecate together is associated within a resource group.
 
-
-To learn more about Azure Resource Group i will recommend you this page https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/get-started/how-azure-resource-manager-works
+To learn more about Azure Resource Group i recommend this page https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/get-started/how-azure-resource-manager-works
 
 <h2>How to create an Azure Resource Group?</h2>
 
